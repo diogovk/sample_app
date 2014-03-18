@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.0.0.beta1'
 gem 'bootstrap-sass', '2.3.0.1'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'
@@ -15,7 +16,6 @@ group :test do
   gem 'capybara'
   gem 'rb-fsevent', '0.9.3', :require => false
   gem 'growl', '1.0.3'
-  # gem 'launchy', '2.2.0'
 end
 
 group :assets do
